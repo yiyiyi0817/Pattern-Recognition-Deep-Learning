@@ -16,13 +16,13 @@ AlexNet structure is implemented based on PyTorch, verified on Caltech101 datase
 
   
 实验4：循环神经网络  
-1. 利用 Pytorch 自己实现 RNN、GRU、LSTM 和 Bi-LSTM。不可直接调用nn.RNN(), nn.GRU(), nn.LSTM()。  
-2. 利用上述四种结构进行文本多分类（60%）计算测试结果的准确率、召回率和 F1 值；对比分析四种结构的实验结果。  
-3. 任选上述一种结构进行温度预测（40%）使用五天的温度值预测出未来两天的温度值；给出与真实值的平均误差和中位误差。  
+1.利用 Pytorch 自己实现 RNN、GRU、LSTM 和 Bi-LSTM。不可直接调用nn.RNN(), nn.GRU(), nn.LSTM()。  
+2.利用上述四种结构进行文本多分类（60%）计算测试结果的准确率、召回率和 F1 值；对比分析四种结构的实验结果。  
+3.任选上述一种结构进行温度预测（40%）使用五天的温度值预测出未来两天的温度值；给出与真实值的平均误差和中位误差。  
 Lab4: Recurrent neural network(RNN)  
-1. Implement RNN, GRU, LSTM, and Bi-LSTM by yourself using Pytorch. You cannot call nn.RNN(), nn.GRU(), nn.LSTM() directly.  
-2. Use the above four structures for text multi-classification (60%) to calculate the accuracy, recall and F1 value of the test results; The experimental results of the four structures were compared and analyzed.  
-3. Choose one of the above structures for temperature prediction (40%). Use the temperature value of five days to predict the temperature value of the next two days; The mean and median errors from the true values are given.  
+1.Implement RNN, GRU, LSTM, and Bi-LSTM by yourself using Pytorch. You cannot call nn.RNN(), nn.GRU(), nn.LSTM() directly.  
+2.Use the above four structures for text multi-classification (60%) to calculate the accuracy, recall and F1 value of the test results; The experimental results of the four structures were compared and analyzed.  
+3.Choose one of the above structures for temperature prediction (40%). Use the temperature value of five days to predict the temperature value of the next two days; The mean and median errors from the true values are given.  
 
   
 实验5：生成式对抗网络  
