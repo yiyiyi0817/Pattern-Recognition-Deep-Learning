@@ -9,6 +9,7 @@ HIT Spring 2023 Semester Pattern Recognition & Deep Learning lab assignments
 Lab1: Familiarity with the deep learning framework  
 The MLP is implemented using PyTorch and verified on MNIST dataset.  
   
+
   
 实验2：卷积神经网络实现  
 基于 PyTorch 实现 AlexNet 结构,在Caltech101 数据集上进行验证,并使用tensorboard 进行训练数据可视化。  
@@ -16,6 +17,7 @@ The MLP is implemented using PyTorch and verified on MNIST dataset.
 Lab2: Convolutional neural network(CNN) implementation  
 AlexNet structure is implemented based on PyTorch, verified on Caltech101 dataset, and tensorboard is used for training data visualization.    
   
+
   
 实验4：循环神经网络  
 1. 利用 Pytorch 自己实现 RNN、GRU、LSTM 和 Bi-LSTM。不可直接调用nn.RNN(), nn.GRU(), nn.LSTM()。  
@@ -26,6 +28,7 @@ Lab4: Recurrent neural network(RNN)
 1. Implement RNN, GRU, LSTM, and Bi-LSTM by yourself using Pytorch. You cannot call nn.RNN(), nn.GRU(), nn.LSTM() directly.  
 2. Use the above four structures for text multi-classification (60%) to calculate the accuracy, recall and F1 value of the test results; The experimental results of the four structures were compared and analyzed.  
 3. Choose one of the above structures for temperature prediction (40%). Use the temperature value of five days to predict the temperature value of the next two days; The mean and median errors from the true values are given.  
+
   
   
 实验5：生成式对抗网络  
@@ -35,6 +38,7 @@ Lab4: Recurrent neural network(RNN)
 Lab5:Generative Adversarial Networks(GAN)  
 1. Implement GAN, WGAN, WGAN-GP based on Pytorch. Fits the given distribution (the distribution is given by points.mat) Ask to visualize the training process.  
 2. Based on the given ProGAN code and model, implement the sefa part of the code for semantic direction search in latent space, and improve the TODO part of genforce/ SEFA.py.  
+
   
   
 算法说明、应用场景设定、实验结果等详见每部分的实验报告。小组合作完成的代码和报告并未上传。  
